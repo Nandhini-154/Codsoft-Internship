@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff6600;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #1e1e1e;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    color: #ff6600;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-card {
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.project-card {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.about-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-photo img {
+    width: 220px;
+    height:250px;
+    border-radius: 10px;
+}
+
+.resume-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.copy{
+  text-align:center;
+}
+/* ... (previous styles) ... */
+
+#contact {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    color: #ff6600;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* ... (remaining styles) ... */
+
+footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
